@@ -4,45 +4,71 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Mi Primer Sitio Web</title>
+    <link rel="stylesheet" href="reset.css">
+    <link rel="stylesheet" type="text/css" href="styles.css">
 </head>
 <body>
-    <img src="c:\Users\HP 15\Downloads\ejercicio en casa.jpg">
     <header>
-        <h1>LA IMPORTANCIA DE REALIZAR EJERCICIO</h1>
+        <h1 id="titulo">LA IMPORTANCIA DE REALIZAR EJERCICIO</h1>
         <hr>
-            <span>BENEFICIOS</span>
-            <span>CAMBIOS</span>
-        
     </header>
-<section>
+    <section>
+        
+        <article>
+            <div id="paint-container">
+               <div class="paint">
+                    <H3 class="subtitle">Calistenia</H3>
+                   <img src="gim1.jpg" class="imagenes">
+               </div> 
+    
+               <div class="paint">
+                   <H3 class="subtitle">Crossfit</H3>
+                   <img src="gim2.jpg " class="imagenes">
+               </div>
+               
+               <div class="paint">
+                   <H3 class="subtitle">Aeróbicos</H3>
+                   <img src="gim3.jpg" class="imagenes">
+                </div>
+            </div>    
+                
+        </article>
+                   
+        <article>
 
-    <div>
-        <ol>
-            <li>Calistenia</li>
-            <li>Gimnasio</li>
-            <li>Yoga</li>
-        </ol>
-
-    </div>
-    <article>
-
-        <div>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Debitis illum non vel sed cum. Aliquid officia placeat aspernatur recusandae praesentium ratione, commodi beatae delectus tempora. Nihil omnis temporibus facere inventore!</p>
+        <div class="fondo-ejercicio">
+            <H2 class="tipo-ejercicio">CALISTENIA</H2>
+            <p>
+                La Calistenia es una disciplina deportiva basada en el entrenamiento con peso corporal que se suele realizar en parques de barras al aire libre usando ejercicios característicos como las dominadas, fondos en paralelas, flexiones, muscle up, pino, planchas o front lever.
+            </p>
         </div>
     </article>
 
     <article>
 
-        <div>
+        <div class="fondo-ejercicio">
+            <H2 class="tipo-ejercicio">CROSSFIT</H2>
             <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Soluta repellendus nostrum libero error omnis ratione ipsa, illum, ea, voluptas odio veniam asperiores pariatur commodi alias consequatur magni magnam possimus reprehenderit?
-        </p>
+                CrossFit es una técnica de entrenamiento que conecta movimientos de diferentes disciplinas, tales como la halterofilia, el entrenamiento metabólico o el gimnástico.
+                Consiste en acometer un programa de ejercicios (flexiones, tracción, etc), en un tiempo determinado y con un número definido de veces.
+            </p>
     </div>
 </article>
 
+<article>
+
+    <div class="fondo-ejercicio">
+        <H2 class="tipo-ejercicio">AERÓBICOS</H2>
+        <p>
+            El ejercicio cardiovascular, comúnmente conocido como ejercicio aeróbico, es un ejercicio físico que necesita implícitamente de la respiración aeróbica para poder realizarse. Los ejercicios aeróbicos incluyen cualquier tipo de ejercicio que se practique a niveles moderados de intensidad durante períodos de tiempos extensos, lo que hace mantener una frecuencia cardíaca más elevada.
+        </p>
+</div>
+</article>
+
+
     <hr>
 
-    <h2>PROBLEMAS DE SALUD</h2>
+    <h2 class="tipo-ejercicio" >PROBLEMAS DE SALUD</h2>
 <article>
      
     <div>
@@ -59,7 +85,7 @@
 </article>
     <hr>
     
-    <h3>DIETA RECOMENDADA</h3> 
+    <h2 class="tipo-ejercicio">DIETA RECOMENDADA</h2> 
 </section>
 
 <footer>
